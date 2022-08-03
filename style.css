@@ -1,28 +1,37 @@
 body {
-  background-color: whitesmoke;
-  font-family: 'Roboto', sans-serif;
+  background: #151719;
+  background: -webkit-radial-gradient(top left, #151719, #292929);
+  background: -moz-radial-gradient(top left, #151719, #292929);
+  background: radial-gradient(to bottom right, #151719, #292929);
   font-weight: 300;
+  font-family: 'Ubuntu', sans-serif;
   color: black;
   font-size: 16px;
   line-height: 16px;
 }
 
 h1, h2, h3 {
-  font-family: 'Ubuntu', sans-serif;
-  color: grey;
+  color: white;
 }
 
 h1 {
   font-size: 24px;
   line-height: 24px;
   font-weight: 700;
-  color: black;
+  color: white;
 }
 
 h2 {
   font-size: 16px;
   line-height: 16px;
   font-weight: 500;
+}
+
+p {
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  font-family: 'Roboto',sans-serif;
 }
 
 a {
@@ -48,12 +57,11 @@ a:hover {
   padding: 30px;
   margin: 20px;
   border-radius: 6px;
+  box-shadow:0px 4px 5px 0px hsla(0,0%,0%,0.14);
 }
 
 .card-white {
-  background: white;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);
-  border: 1px solid lightgrey;
+  background: #25282C;
 }
 
 #home-page-first-image {
@@ -77,15 +85,25 @@ a:hover {
   background-color: cornflowerblue;
   color: white;
   border-radius: 6px;
-  padding: 5px;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 .button-blue:hover {
-  background-color: blue;
+  background-color: black;
   text-decoration: none;
   color: white;
   border-radius: 6px;
-  padding: 5px;
+  padding: 10px;
+}
+
+.btn-social {
+  color: white;
+  font-size: 32px;
+}
+
+.btn-social:hover {
+  color: black;
 }
 
 
