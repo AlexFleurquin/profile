@@ -1,0 +1,111 @@
+body {
+  background-color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: black;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+h1, h2, h3 {
+  font-family: 'Ubuntu', sans-serif;
+  color: grey;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  color: black;
+}
+
+h2 {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: violet;
+  text-decoration: underline;
+}
+
+.container {
+  width: 800px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  padding: 30px;
+  margin: 20px;
+  border-radius: 6px;
+}
+
+.card-white {
+  background: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border: 1px solid lightgrey;
+}
+
+#home-page-first-image {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-decoration: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+.button-blue {
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.button-blue:hover {
+  background-color: blue;
+  text-decoration: none;
+  color: white;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
